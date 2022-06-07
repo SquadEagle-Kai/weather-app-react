@@ -15,7 +15,6 @@ function DetailsCard({weather_icon, data}) {
            <p className="des">{weather[0].description}</p>
            <p className="time">{moment().format("dddd MMM YYYY")}</p>
        </div>
-       <div className="vl"></div>
        <div className="more-info">
            <p className="">RealFell: {Math.round(main.feels_like)}&deg;C</p>
            <p className="">Humidity: {main.humidity}%</p>
